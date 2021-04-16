@@ -1,0 +1,10 @@
+package fundamentos;
+
+public class ConversorTemperatura {
+	public static void main(String[] args) {
+		double fahrenheit = 72;
+		final int diferenca = 32;
+		final double fator = 5/9;
+		System.out.println(fator);
+	}
+}

@@ -1,0 +1,9 @@
+package fundamentos;
+
+public class Inferencia {
+	public static void main(String[] args) {
+		double a = 4.5;
+		a = 3.3;
+		System.out.println("O valor da variavel a é: " + a);
+	}
+}
