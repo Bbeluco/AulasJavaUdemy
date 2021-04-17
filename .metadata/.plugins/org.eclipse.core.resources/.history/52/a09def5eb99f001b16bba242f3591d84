@@ -1,0 +1,35 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioConversao {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		//Entrada dos dados
+		System.out.print("Digite o seu 1º salário: ");
+		String n1Str = entrada.nextLine(); 
+		System.out.print("Digite o seu 2º salário: ");
+		String n2Str = entrada.nextLine();
+		System.out.print("Digite o seu 3º salário: ");
+		String n3Str = entrada.nextLine();
+		
+		entrada.close();
+		
+		//Tratamento para conversão
+		n1Str = n1Str.replace(",", ".");
+		n2Str = n2Str.replace(",", ".");
+		n3Str = n3Str.replace(",", ".");
+		
+		//Conversão de String para float
+		float n1 = Float.parseFloat(n1Str);
+		float n2 = Float.parseFloat(n2Str);
+		float n3 = Float.parseFloat(n3Str);
+		
+		
+		float mediaSalario = (n1 + n2 + n3) / 3;
+		
+		System.out.printf("A média salárial deste funcionário é de R$%.2f", 
+				mediaSalario);
+	}
+}
