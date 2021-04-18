@@ -1,0 +1,10 @@
+package fundamentos.operadores;
+
+public class DesafioLogica {
+	public static void main(String[] args) {
+		boolean trabalho1 = true;
+		boolean trabalho2 = true;
+		
+		System.out.println("Vai ao shopping? " + (trabalho1 || trabalho2));
+	}
+}
