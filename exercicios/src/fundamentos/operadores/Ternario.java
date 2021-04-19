@@ -11,6 +11,6 @@ public class Ternario {
 		boolean passouPorMedia = nota >= 7;
 		boolean temDesconto = passouPorMedia && bomComportamento;
 		String desconto = temDesconto ? "Sim." : "Não";
-		System.out.println("Tem desconto? " + temDesconto);
+		System.out.println("Tem desconto? " + desconto);
 	}
 }
