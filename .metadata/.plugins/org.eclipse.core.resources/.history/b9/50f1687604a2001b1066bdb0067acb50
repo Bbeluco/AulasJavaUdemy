@@ -1,0 +1,22 @@
+package desafios;
+
+import java.util.Scanner;
+
+public class Advinhacao {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		int al = (1 + (int)(Math.random() * 10));
+		System.out.println(al);
+		int tentativa = 0;
+		
+		for(int i = 0; i < 10; i++) {
+			System.out.print("Escolha um número: ");
+			tentativa= entrada.nextInt();
+			if(tentativa == al) {
+				System.out.println("Entrei");
+			}
+		}
+		
+		entrada.close();
+	}
+}

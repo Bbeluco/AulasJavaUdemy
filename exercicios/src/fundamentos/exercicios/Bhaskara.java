@@ -1,7 +1,5 @@
 package fundamentos.exercicios;
 
-import java.util.Scanner;
-
 public class Bhaskara {
 	public static void main(String[] args) {
 		byte a = 1;

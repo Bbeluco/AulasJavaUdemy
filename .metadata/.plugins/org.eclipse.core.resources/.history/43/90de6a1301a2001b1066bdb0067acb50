@@ -1,0 +1,17 @@
+package desafios;
+
+import java.util.Scanner;
+
+public class Bissexto {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		int ano = entrada.nextInt();
+		entrada.close();
+		
+		if(ano % 4 == 0 ) {
+			System.err.println("Ano BISSEXTO");
+		} else {
+			System.out.println("Ano comum");
+		}
+	}
+}
