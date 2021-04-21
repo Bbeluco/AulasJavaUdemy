@@ -1,0 +1,16 @@
+package classe;
+
+public class ProdutoTeste {
+	public static void main(String[] args) {
+		Produto p1 = new Produto("Notebook", 4325.88, 0.25);
+		
+		Produto p2 = new Produto();
+		p2.nome = "MousePad";
+		p2.preco = 200.00;
+		p2.desconto = 0.10;
+		
+		double precoComDesconto = p1.precoComDesconto();
+		System.out.printf("Preco final do %s: %.2f", 
+				p1.nome, precoComDesconto);
+	}
+}

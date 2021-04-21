@@ -1,0 +1,13 @@
+package classe.desafios;
+
+public class DataTeste {
+	public static void main(String[] args) {
+		Data diaDoAno = new Data();
+		diaDoAno.dia = 06;
+		diaDoAno.mes = 06;
+		diaDoAno.ano = 2002;
+		
+		System.out.printf("%d/%d/%d", 
+				diaDoAno.dia, diaDoAno.mes, diaDoAno.ano);
+	}
+}

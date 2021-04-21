@@ -1,0 +1,6 @@
+package classe.desafios;
+
+public class DataTeste {
+	Data diaDoAno = new Data();
+	diaDoAno.dia = 01;
+}
