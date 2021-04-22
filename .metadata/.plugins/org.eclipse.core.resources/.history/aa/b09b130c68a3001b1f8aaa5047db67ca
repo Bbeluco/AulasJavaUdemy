@@ -1,0 +1,10 @@
+package classe.desafios;
+
+public class Pessoa {
+	String nome;
+	double peso;
+	
+	void comer(String nome, double pesoPessoa, double pesoComida) {
+		Comida.acrescentarPeso(nome, pesoPessoa, pesoComida);
+	}
+}

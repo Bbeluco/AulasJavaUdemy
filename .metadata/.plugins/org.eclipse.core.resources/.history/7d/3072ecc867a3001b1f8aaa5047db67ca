@@ -1,0 +1,10 @@
+package classe.desafios;
+
+public class Comida {
+	String nome;
+	double peso;
+	
+	double acrescentarPeso(String nome, double peso) {
+		return peso + this.peso;
+	}
+}
