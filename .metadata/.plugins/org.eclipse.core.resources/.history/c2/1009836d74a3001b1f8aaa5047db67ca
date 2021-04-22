@@ -1,0 +1,16 @@
+package arrays.desafio;
+
+import java.util.Scanner;
+
+public class mediaDasNotas {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		System.out.print("Quantas notas deseja computar? ");
+		int tamanhoArray = entrada.nextInt();
+		entrada.close();
+		
+		for(int i = 0; i < tamanhoArray; i++) {
+			System.out.println(i);
+		}
+	}
+}

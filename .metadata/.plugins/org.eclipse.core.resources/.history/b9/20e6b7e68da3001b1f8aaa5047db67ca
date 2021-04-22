@@ -1,0 +1,16 @@
+package colecoes;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class ConjuntoOrganizado {
+	public static void main(String[] args) {
+		Set<String> listaAlunos = new HashSet<>();
+		listaAlunos.add("Sophia");
+		listaAlunos.add("Carlos");
+		listaAlunos.add("Rebeca");
+		listaAlunos.add("Bruno");
+		System.out.println(listaAlunos);
+		
+	}
+}
