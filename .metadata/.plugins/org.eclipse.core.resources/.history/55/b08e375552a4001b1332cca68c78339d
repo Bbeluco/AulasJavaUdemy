@@ -1,0 +1,18 @@
+package oo.componentes.desafio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cliente {
+	String nome;
+	List<Compra> compras = new ArrayList<Compra>();
+	
+	void criaCompra(String nome, int qtd, double preco) {
+		this.criaCompra(new Compra(nome, qtd, preco));
+	}
+	
+	void criaCompra(Compra compra) {
+		compra.adicionarItem(null);
+		
+	}
+}

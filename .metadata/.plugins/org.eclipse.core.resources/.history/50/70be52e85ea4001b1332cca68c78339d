@@ -1,0 +1,27 @@
+package oo.componentes.desafio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cliente {
+	String nome;
+	List<Compra> compras = new ArrayList<>();
+	
+	Cliente(String nome){
+		this.nome = nome;
+	}
+	
+	void adicionarCompra(String nome, int qtd, double preco) {
+		Compra compra = new Compra(nome, qtd, preco);
+		compra.compraEmItens(nome, qtd, preco);
+	}
+	
+	double precoTotal() {
+		System.out.println(compras.size();
+		double total = 0;
+		for(Compra c: compras) {
+			System.out.println(c.preco);
+		}
+		return total;
+	}
+}

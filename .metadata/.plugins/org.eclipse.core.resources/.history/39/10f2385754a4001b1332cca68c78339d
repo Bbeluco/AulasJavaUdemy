@@ -1,0 +1,9 @@
+package oo.componentes.desafio;
+
+public class ClienteTeste {
+	public static void main(String[] args) {
+		Cliente c1 = new Cliente();
+		c1.criaCompra("Borracha", 1, 2.0);
+		c1.criaCompra("Lapis", 1, 4.0);
+	}
+}

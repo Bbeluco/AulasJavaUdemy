@@ -1,0 +1,22 @@
+package oo.componentes.desafio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Compra {
+	String nome;
+	int qtd;
+	double preco;
+	List<Item> itens = new ArrayList<>();
+	
+	Compra(String nome, int qtd, double preco) {
+		this.nome = nome;
+		this.qtd = qtd;
+		this.preco = preco;
+	}
+	
+	void compraEmItens(String nome, int qtd, double preco) {
+		Item i = new Item(new Produto(nome, preco), qtd);
+		this.itens.add(i);
+	}
+}

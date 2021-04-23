@@ -1,0 +1,7 @@
+package oo.componentes;
+
+public class CarroTeste {
+	Carro c1 = new Carro();
+	
+
+}

@@ -1,0 +1,7 @@
+package oo.componentes;
+
+public class Item {
+	String nome;
+	int qtd;
+	double preco;
+}

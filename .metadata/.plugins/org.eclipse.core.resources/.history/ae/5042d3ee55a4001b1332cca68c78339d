@@ -1,0 +1,34 @@
+package oo.componentes.desafio;
+
+import java.util.ArrayList;
+
+public class Compra {
+	String nome;
+	int qtd;
+	double preco;
+	ArrayList<Item> itens = new ArrayList<Item>();
+	Cliente cliente;
+	double total;
+	
+	Compra(String nome, int qtd, double preco) {
+		this.nome = nome;
+		this.qtd = qtd;
+		this.preco = preco;
+	}
+	
+	void adicionarItem(String nome, int qtd, double preco) {
+		this.adicionarItem(new Item(nome, qtd, preco));
+	}
+	
+	void adicionarItem(Item item) {
+		this.itens.add(item);
+		item.compra = this; //Atribuindo o obj item dentro do obj compra
+	}
+	
+	void valorTotal() {
+		System.out.println(itens.size());
+		for(Item i: itens) {
+			System.out.println(i.nome);
+		}
+	}
+}

@@ -1,0 +1,19 @@
+package oo.componentes.desafio;
+
+public class Cliente {
+	double precoTotal;
+	Compra c;
+	
+	void criaCompra(String nome, int qtd, double preco) {
+		c = new Compra(nome, qtd, preco);
+		this.criaCompra(c);
+	}
+	
+	void criaCompra(Compra compra) {
+		compra.adicionarItem(compra.nome, compra.qtd, compra.preco);
+	}
+	
+	void total() {
+		c.valorTotal();
+	}
+}
