@@ -1,0 +1,16 @@
+package oo.heranca.desafios;
+
+public class Carro {
+	int velocidadeAtual;
+	
+	void acelerar(Carro c) {
+		c.velocidadeAtual += 5;
+	}
+	
+	void freiar(Carro c) {
+		if(c.velocidadeAtual != 0) {
+			c.velocidadeAtual -= 5; 			
+		}
+	}
+	
+}

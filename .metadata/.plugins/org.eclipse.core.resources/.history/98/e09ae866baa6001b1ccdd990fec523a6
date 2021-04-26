@@ -1,0 +1,14 @@
+package oo.heranca.desafios;
+
+public class Ferrari extends Carro {
+	Ferrari() {
+		this(30);
+	}
+	
+	Ferrari(int velocidadeMaxima) {
+		super(velocidadeMaxima);
+	}
+	void acelerar() {
+		this.velocidadeAtual += 15;
+	}
+}
