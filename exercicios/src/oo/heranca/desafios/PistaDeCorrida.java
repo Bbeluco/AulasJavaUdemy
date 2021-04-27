@@ -7,8 +7,9 @@ public class PistaDeCorrida {
 		
 		System.out.println("Ferrari ==> " + ferrari.velocidadeAtual);
 		System.out.println("Civic ==> " + civic.velocidadeAtual);
-		
+		System.out.println(ferrari.turbina());
 		civic.acelerar();
+		ferrari.ligarTurbo();
 		ferrari.acelerar();
 		ferrari.acelerar();
 		ferrari.acelerar();

@@ -1,0 +1,12 @@
+package oo.polimorfismo;
+
+public class Pessoa extends Comida {
+	private double peso;
+	public Pessoa(double peso) {
+		super(peso);
+	}
+	
+	public void comer(Comida comida) {
+		this.peso += comida.getPeso();
+	}	
+}

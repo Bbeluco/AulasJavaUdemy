@@ -1,0 +1,19 @@
+package oo.polimorfismo;
+
+public class Arroz {
+	private double peso;
+	
+	Arroz(double peso) {
+		this.peso = peso;
+	}
+	
+	public void setPeso(double pesoAtual) {
+		if(pesoAtual >= 0) {
+			this.peso = pesoAtual;
+		}
+	}
+	
+	public double getPeso() {
+		return peso;
+	}
+}

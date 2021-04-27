@@ -1,8 +1,0 @@
-package fundamentos;
-
-public class NumeroParaString {
-	public static void main(String[] args) {
-		Integer x = 12345;
-		System.out.println(x.toString());
-	}
-}

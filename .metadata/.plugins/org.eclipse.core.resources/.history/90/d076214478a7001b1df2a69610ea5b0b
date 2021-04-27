@@ -1,0 +1,19 @@
+package oo.encapsulamento;
+
+public class Pessoa {
+	private int idade;
+	
+	public Pessoa(int idade) {
+		setIdade(idade);
+	}
+	
+	public void setIdade(int idadeAtual) {
+		if(idadeAtual >= 0 && idadeAtual <= 120) {
+			idade = idadeAtual;			
+		}
+	}
+	
+	public int getIdade() {
+		return idade;
+	}
+}

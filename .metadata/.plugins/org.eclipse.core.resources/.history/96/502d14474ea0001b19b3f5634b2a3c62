@@ -1,9 +1,0 @@
-package fundamentos;
-
-public class DesafioAritmetico {
-	public static void main(String[] args) {
-		double quocientePrimeiraFracao = Math.pow((6 * (3 + 2)), 2);
-		System.out.println(quocientePrimeiraFracao);
-		
-	}
-}
