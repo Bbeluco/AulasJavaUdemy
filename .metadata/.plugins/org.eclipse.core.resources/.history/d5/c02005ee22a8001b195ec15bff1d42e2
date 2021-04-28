@@ -1,0 +1,10 @@
+package lambdas;
+
+public class CalculoTeste1 {
+	public static void main(String[] args) {
+		Somar s = new Somar();
+		Multiplicar m = new Multiplicar();
+		
+		System.out.println(s.executar(1, 2));
+	}
+}

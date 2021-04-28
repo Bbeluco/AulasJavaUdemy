@@ -1,0 +1,18 @@
+package lambdas;
+
+import java.util.function.BinaryOperator;
+import java.util.function.UnaryOperator;
+
+public class Desafio {
+	public static void main(String[] args) {
+		Produto p1 = new Produto("iPad", 3235.89, 0.13);
+		
+		BinaryOperator<Double> desconto = 
+				(preco, desc) -> preco - (preco * desc); 
+		
+		UnaryOperator<Double> imposto = 
+				preco -> preco >= 2500 ? preco + (preco * 0.085) : preco;
+				
+		System.out.println(desconto.apply(p1.preco, p1.desconto));
+	}
+}
