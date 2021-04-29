@@ -1,0 +1,9 @@
+package streams;
+
+import java.util.function.UnaryOperator;
+
+public class Utilitarios {
+	UnaryOperator<String> maiusculo = n -> n.toUpperCase();
+	UnaryOperator<String> primeira = n -> n.charAt(0) + "";
+	UnaryOperator<String> grito = n -> n.concat("!!! ");
+}

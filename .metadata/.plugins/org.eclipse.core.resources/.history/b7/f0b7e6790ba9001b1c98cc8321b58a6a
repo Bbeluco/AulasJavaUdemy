@@ -1,0 +1,11 @@
+package streams.desafios;
+
+public class Carro {
+	final String placa;
+	final int velocidade;
+	
+	Carro(String placa, int velocidade) {
+		this.placa = placa;
+		this.velocidade = velocidade;
+	}
+}

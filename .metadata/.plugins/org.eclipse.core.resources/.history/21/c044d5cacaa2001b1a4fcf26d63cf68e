@@ -1,7 +1,0 @@
-package classe.desafios;
-
-public class ValorVSReferencia {
-	public static void main(String[] args) {
-		
-	}
-}

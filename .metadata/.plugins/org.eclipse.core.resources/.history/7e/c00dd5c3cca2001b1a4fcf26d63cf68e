@@ -1,7 +1,0 @@
-package classe.desafios;
-
-public class PrimeiroTraumaTeste {
-	public static void main(String[] args) {
-		System.out.println();
-	}
-}
